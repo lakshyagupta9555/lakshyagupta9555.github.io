@@ -405,15 +405,15 @@ i{
 }
 .skill-per.python{
     animation-delay: 0.1s;
-    width: 50%;
+    width: 80%;
 }
 .skill-per.c{
     animation-delay: 0.1s;
-    width: 80%;
+    width: 50%;
 }
 .skill-per.cpp{
     animation-delay: 0.1s;
-    width: 40%;
+    width: 75%;
 }
 .skill-per.java{
     animation-delay: 0.1s;
