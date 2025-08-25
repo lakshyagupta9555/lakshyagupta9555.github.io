@@ -1,244 +1,448 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
-    </head>
-    <body>
-        <div class="container">
-            <nav id="header">
-                    <div class="nav-logo">  
-                        <p class="nav-name">LAKSHYA GUPTA</p>
-                    </div>
-                    <div class="nav-menu" id="myNavMenu">
-                        <ul class="nav_menu_list">
-                            <li class="nav_list">
-                                <a href="#home" class="nav-link active-link">Home</a>
-                                <div class="circle"></div>
-                            </li>
-                            <li class="nav_list">
-                                <a href="#about" class="nav-link">About</a>
-                                <div class="circle"></div>
-                            </li>
-                            <li class="nav_list">
-                                <a href="#projects" class="nav-link">Projects</a>
-                                <div class="circle"></div>
-                            </li>
-                            <li class="nav_list">
-                                <a href="#contact" class="nav-link">Contact</a>
-                                <div class="circle"></div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="mode">
-                        <div class="moon-sun" id="toggle-switch">
-                            <i class="fa fa-moon" id="moon"></i>
-                            <i class="fa fa-sun" id="sun"></i>
-                        </div>
-                    </div>
-                    <div class="nav-menu-btn">
-                        <i class="uil uil-bars" onclick="myMenuFunction()"></i>
-                    </div>
-            </nav>
-            <main class="wrapper">
-                <section class="featured-box" id="home">
-                    <div class="featured-text">
-                        <div class="hello">
-                            <p>Hello I'm</p>
-                        </div>
-                        <div class="featured-name">
-                            <span class="typedText"></span>
-                        </div>
-                        <div class="text-info">
-                            <p>My name is Lakshya Gupta! I'm a Programmer</p>
-                        </div>
-                        <div class="text-btn">
-                            
-                            <form action="https://drive.google.com/file/d/1t9Ah31smsOtMfsHBDMAi8Wgp7sBS4yLP/view?usp=sharing">
-                                <button class="btn hire-btn">Hire me</button>
-                                <button class="btn">Download CV<i class="uil uil-file"></i></button>
-                            </form>
-                        </div>
-                            <div class="socical_icons">
-                                <div class="icon_circle"></div>
-                                <div class="icon"><a href="https://www.hackerrank.com/profile/lakshya_2026_A3"><i class="fab fa-hackerrank"></i></a></div>
-                                <div class="icon"><a href="https://www.linkedin.com/in/lakshya-gupta-95954223a/"><i class="uil uil-linkedin-alt"></i></a></div>
-                                <div class="icon"><a href="https://github.com/lakshyagupta9555"><i class="uil uil-github-alt"></i></a></div>
-                                <div class="icon"><a href=""><i class="uil uil-envelope-alt"></i></a></div>
-                            </div>                        
-                    </div>
-                    <div class="featured-image">
-                        <div class="image">
-                            <img src="me3.png" alt="">
-                        </div>
-                    </div>
-                </section>
-                <section class="section" id="about">
-                    <div class="top-header">
-                        <h1>About me</h1>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="about-info">
-                                <figure class="about-me">
-                                    <figcaption>
-                                        <img src="ai.jpeg" alt="" class="profile" />
-                                        <h2>Software Engineer</h2>
-                                        <p>My name is Lakshya Gupta! I'm an Engineer</p>
-                                </figure>
-                                <form action="https://drive.google.com/file/d/1t9Ah31smsOtMfsHBDMAi8Wgp7sBS4yLP/view?usp=sharing">
-                                <button class="about-me-btn">Hire Me</button></form>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <div class="skill-box">
-                                <span class="title">HTML</span>
-                                <div class="skill-bar ">
-                                    <span class="skill-per html">
-                                        <span class="tooltip">80%</span>
-                                    </span>
-                                </div>
-                            </div>     
-                            <div class="skill-box">
-                                <span class="title">CSS</span>
-                                <div class="skill-bar">
-                                    <span class="skill-per css">
-                                        <span class="tooltip">70%</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="skill-box">
-                                <span class="title">PYTHON</span>
-                                <div class="skill-bar">
-                                    <span class="skill-per python">
-                                        <span class="tooltip">80%</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="skill-box">
-                                <span class="title">C</span>
-                                <div class="skill-bar">
-                                    <span class="skill-per c">
-                                        <span class="tooltip">50%</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="skill-box">
-                                <span class="title">TailwindCSS</span>
-                                <div class="skill-bar">
-                                    <span class="skill-per cpp">
-                                        <span class="tooltip">75%</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="skill-box">
-                                <span class="title">SQL</span>
-                                <div class="skill-bar">
-                                    <span class="skill-per java">
-                                        <span class="tooltip">50%</span>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="section" id="projects">
-                    <div class="top-header">
-                        <h1>Projects</h1>
-                    </div>
-                    <div class="project-container">
-                        <div class="project-box">
-                            <i class="uil uil-briefcase-alt"></i>
-                            <h3>Completed</h3>
-                            <label>Music Recommendation</label>
-                        </div>
-                        <div class="project-box">
-                            <i class="uil uil-briefcase-alt"></i>
-                            <h3>Completed</h3>
-                            <label>PORTFOLIO</label>
-                        </div>
-                        <div class="project-box">
-                            <i class="uil uil-briefcase-alt"></i>
-                            <h3>Completed</h3>
-                            <label>Password Generator</label>
-                        </div>
-                        <div class="project-box">
-                            <i class="uil uil-briefcase-alt"></i>
-                            <h3>Completed</h3>
-                            <label>Timetable Manager</label>
-                        </div>
-                        <div class="project-box">
-                            <i class="uil uil-briefcase-alt"></i>
-                            <h3>Completed</h3>
-                            <label>Virtual Mouse</label>
-                        </div>
-                    </div>
-                </section>
-                <section class="section" id="contact">
-                    <div class="top-header">
-                        <h1>Let's Work Together</h1>
-                        <span>Do you have a project in your mind, contact me here</span>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="contact-info">
-                                <h2>Find me<i class="uil uil-corner-right-down"></i></h2>
-                                <p><i class="uil uil-envelope"></i>Email: lakshyagupta628@gmail.com</p>
-                                <p><i class="uil uil-phone"></i>Phone: +91 9555631256</p>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="form-control">
-                                <div class="form-inputs">
-                                    <input type="text" class="input-field" placeholder="Your Name">
-                                    <input type="text" class="input-field" placeholder="Your Email">
-                                </div>
-                                <div class="text-area">
-                                    <input type="text" class="input-subject" placeholder="Subject">
-                                    <textarea placeholder="Message"></textarea>
-                                </div>
-                                <div class="form-button">
-                                    <button class="btn">Send<i class="uil uil-message"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </main>
-            <footer>
-                <div class="middle-footer">
-                    <ul class="footer-menu">
-                        <li class="footer_menu_list">
-                            <a href="#home">Home</a>
-                        </li>
-                        <li class="footer_menu_list">
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer_menu_list">
-                            <a href="#projects">Projects</a>
-                        </li>
-                        <li class="footer_menu_list">
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-social-icons">
-                <div class="icon"><a href="https://www.hackerrank.com/profile/lakshya_2026_A3"><i class="fab fa-hackerrank"></i></a></div>
-                <div class="icon"><a href="https://www.linkedin.com/in/lakshya-gupta-95954223a/"><i class="fa-brands fa-linkedin-in icon"></i></a></div>
-                <div class="icon"><a href="https://github.com/lakshyagupta9555"><i class="uil uil-github-alt"></i></a></div>
-                <div class="icon"><a href=""><i class="uil uil-envelope-alt"></i></a></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshya Gupta - Modern Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Lakshya</a>
             </div>
-                <div class="bottom-footer">
-                    <p>Copyright &copy; <a href="#home" style="text-decoration: none;">lakshya_gupta</a> - All rights reserved 2024</p>
-                </div>
-            </footer>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item">
+                    <a href="https://drive.google.com/file/d/1rB63SnhiEB07cmuSKQYYXDj8AdY-bSNT/view?usp=sharing" class="nav-download-btn" target="_blank">
+                        <span class="download-icon">📄</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
-        <script src="script.js"></script>
-    </body>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hello, I'm <span class="highlight">Lakshya Gupta</span></h1>
+                    <p class="hero-subtitle">Aspiring Computer Science Engineer</p>
+                    <p class="hero-description">Passionate about solving scalable, user-centric problems through innovative technology solutions</p>
+                </div>
+                <div class="hero-buttons">
+                    <a href="https://drive.google.com/file/d/1rB63SnhiEB07cmuSKQYYXDj8AdY-bSNT/view?usp=sharing" class="btn btn-primary" target="_blank">
+                        <span class="btn-text">Download Resume</span>
+                        <span class="btn-icon">⬇</span>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-outline">View Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="about-text">
+                        <p class="about-description">Aspiring Computer Science engineer with hands-on experience in Python, SQL, and web development. Built real-world projects like a music recommender and password generator. Eager to solve scalable, user-centric problems.</p>
+                        <div class="about-details">
+                            <div class="detail-row">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📍</span>
+                                    <div class="detail-info">
+                                        <span class="detail-label">Location</span>
+                                        <span class="detail-value">Kanpur Nagar, India</span>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">✉️</span>
+                                    <div class="detail-info">
+                                        <span class="detail-label">Email</span>
+                                        <span class="detail-value">lakshyagupta628@gmail.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="detail-row">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📱</span>
+                                    <div class="detail-info">
+                                        <span class="detail-label">Phone</span>
+                                        <span class="detail-value">+91-9555631256</span>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🔗</span>
+                                    <div class="detail-info">
+                                        <span class="detail-label">Links</span>
+                                        <div class="social-links">
+                                            <a href="https://github.com/lakshyagupta9555" target="_blank">GitHub</a>
+                                            <a href="https://www.linkedin.com/in/lakshyaguptaengineer/" target="_blank">LinkedIn</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="education-content">
+                <div class="education-timeline">
+                    <div class="education-card">
+                        <div class="education-year">2022 – 2026</div>
+                        <div class="education-info">
+                            <h3>B.Tech in CSE (Data Science)</h3>
+                            <p>Maharana Pratap Engineering College, Kanpur</p>
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="education-year">2021 – 2022</div>
+                        <div class="education-info">
+                            <h3>Intermediate (ICSE)</h3>
+                            <p>RK Memorial Education Centre</p>
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="education-year">2019 – 2020</div>
+                        <div class="education-info">
+                            <h3>Matriculate (ICSE)</h3>
+                            <p>RK Memorial Education Centre</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section with Progress Bars -->
+    <section id="skills" class="skills-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+            </div>
+            <div class="skills-content">
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">HTML</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">CSS</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">SQL</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">C</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Frameworks & Libraries</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Tailwind CSS</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Tkinter</span>
+                                    <span class="skill-percentage">65%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="65"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Vibe Finder – Music Recommendation System</h3>
+                    </div>
+                    <p class="project-description">Suggested songs based on user mood using ML. Built with Python, Streamlit, and Colab.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Streamlit</span>
+                        <span class="tech-tag">ML</span>
+                        <span class="tech-tag">Google Colab</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/lakshyagupta9555/Vibe-Finder" class="project-link" target="_blank">GitHub →</a>
+                    </div>
+                </div>
+                
+               
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Password Generator</h3>
+                    </div>
+                    <p class="project-description">GUI tool to generate secure passwords using Python & Tkinter.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Tkinter</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/lakshyagupta9555/password-generator" class="project-link" target="_blank">GitHub →</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Attendance Management System</h3>
+                    </div>
+                    <p class="project-description">GUI tool to take Attendance using Face Recognition.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">Tkinker</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/lakshyagupta9555/AttendanceManagementSystemFRS" class="project-link" target="_blank">GitHub →</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Virtual Mouse</h3>
+                    </div>
+                    <p class="project-description">Gesture-controlled virtual mouse using OpenCV and ML.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">ML</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/lakshyagupta9555/virtual-mouse" class="project-link" target="_blank">GitHub →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+            </div>
+            <div class="experience-content">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-info">
+                            <h3>Software Intern</h3>
+                            <p class="company">Optifyx Technology</p>
+                        </div>
+                        <div class="experience-period">Aug 2024 – Sep 2024</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications</h2>
+            </div>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">🏆</div>
+                    <h3>Flipkart Grid 6.0</h3>
+                    <p>Qualified Software Development Track Level 1.1</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">💼</div>
+                    <h3>IBM Certified</h3>
+                    <p>Web Dev Fundamentals, Data Fundamentals</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">⚡</div>
+                    <h3>HackerRank Certified</h3>
+                    <p>Problem Solving, Python, SQL, Software Engineering Intern</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>IIT Kanpur</h3>
+                    <p>Java Training (Online Vocational Program)</p>
+                </div>
+            </div>
+            <div class="achievements-section">
+                <h3>Achievements</h3>
+                <div class="achievement-card">
+                    <span class="achievement-icon">🌟</span>
+                    <span>Google Arcade Premium Milestone Achiever (2024)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and build something amazing together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info-card">
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>lakshyagupta628@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91-9555631256</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Kanpur Nagar, India</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form-card" id="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" class="form-input" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" class="form-input" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" class="form-input" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    <div id="form-status" class="form-status hidden"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+     <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Lakshya Gupta.</p>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+    // Initialize EmailJS with your public key
+    emailjs.init("c6jrfJorFjSKV6HpW"); // e.g., "DxuHbS8yS9V9hxxxx"
+
+    document.getElementById("contact-form").addEventListener("submit", function(e) {
+        e.preventDefault();
+
+        emailjs.sendForm("service_ulb1izh", "template_spu9s5n", this)
+            .then(() => {
+                // alert("Message sent successfully!");
+                document.getElementById("contact-form").reset();
+            }, (error) => {
+                alert("Failed to send message. " + JSON.stringify(error));
+            });
+    });
+</script>
+
+    <script src="app.js"></script>
+</body>
 </html>
